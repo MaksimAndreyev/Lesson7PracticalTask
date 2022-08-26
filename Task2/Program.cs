@@ -2,7 +2,7 @@
 int rows = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число столбцов:");
 int columns = Convert.ToInt32(Console.ReadLine());
-double[,] array = new double[rows, columns];
+int[,] array = new int[rows, columns];
 for (int i=0; i<rows; i++)
 {
     for (int j=0; j<columns; j++)
